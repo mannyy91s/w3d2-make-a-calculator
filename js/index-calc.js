@@ -38,3 +38,27 @@ document.getElementById('clearButton').addEventListener('click', function() {
 
     document.getElementById('firstValue').value = answer
 })
+document.getElementById('remainderButton').addEventListener('click', function() {
+    var firstValue = document.getElementById('firstValue').value
+    var secondValue = document.getElementById('secondValue').value
+
+    var answer = remainder (firstValue,secondValue)
+
+    document.getElementById('firstValue').value = answer
+})
+document.getElementById('incrementButton').addEventListener('click', function() {
+    var firstValue = document.getElementById('firstValue').value
+    var secondValue = document.getElementById('secondValue').value
+
+    var answer = increment (firstValue,secondValue)
+
+    document.getElementById('firstValue').value = answer
+})
+document.getElementById('decrementButton').addEventListener('click', function() {
+    var firstValue = document.getElementById('firstValue').value
+    var secondValue = document.getElementById('secondValue').value
+
+    var answer = decrement (firstValue,secondValue)
+
+    document.getElementById('firstValue').value = answer
+})

@@ -18,6 +18,19 @@ function clear(x,y) {
     var xy= '';
     return xy
 }
+function remainder(x,y) {
+    var xy= x % y;
+    return xy
+}
+function increment(x,y) {
+    var xy = x++;
+    return x
+}
+function decrement(x,y) {
+    var xy = x--;
+    return x
+}
+
 
 var answer
 answer = add(40, 110)
