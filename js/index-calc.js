@@ -30,3 +30,11 @@ document.getElementById('divdButton').addEventListener('click', function() {
 
     document.getElementById('firstValue').value = answer
 })
+document.getElementById('clearButton').addEventListener('click', function() {
+    var firstValue = document.getElementById('firstValue').value
+    var secondValue = document.getElementById('secondValue').value
+
+    var answer = clear (firstValue,secondValue)
+
+    document.getElementById('firstValue').value = answer
+})

@@ -14,6 +14,10 @@ function divide(x,y){
     var xy= x / y;
     return xy
 }
+function clear(x,y) {
+    var xy= '';
+    return xy
+}
 
 var answer
 answer = add(40, 110)
