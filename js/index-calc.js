@@ -62,3 +62,7 @@ document.getElementById('decrementButton').addEventListener('click', function() 
 
     document.getElementById('firstValue').value = answer
 })
+document.getElementById('num').addEventListener('click'),
+    function(){
+        document.getElementById('firstValue').value = 1
+    }

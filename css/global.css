@@ -1,0 +1,26 @@
+body{
+    background-color: #495867;
+    width: 100%;
+}
+.calculator{
+    background: #C6D8AF;
+    padding: 20px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+h4{
+    color: green;
+}
+.btn{
+    padding: 12px;
+}
+.btn-primary{
+    margin-bottom: 10px;
+}
+#clearButton{
+    top: 110px;
+    position: absolute;
+}

@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Control Flow</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script>
-  <!-- Stylesheets go here. -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Calculator</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script>
+    <!-- Stylesheets go here. -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/global.css">
 </head>
 <body>
-
-
-    <input type="text" id="firstValue">
-    <input type="text" id="secondValue">
-    <button type="button" id="addButton" class="btn">add</button>
-    <button id="subButton" class="btn">-</button>
-    <button id="mulButton" class="btn ">*</button>
-    <button id="divdButton" class="btn">/</button>
-    <button id="remainderButton" class="btn">%</button>
-    <button id="incrementButton" class="btn">++</button>
-    <button id="decrementButton" class="btn">--</button>
-    <button id="clearButton" class="btn btn-danger">Clear</button>
-
-<script src="js/calc.js"></script>
-<script src="js/index-calc.js"></script>
+    <div class="calculator">
+        <h4>Basic calculator</h4>
+        <input type="text" id="firstValue" placeholder="Enter first value">
+        <input type="text" id="secondValue" placeholder="Enter second value">
+        <button id="clearButton" class="btn btn-danger btn-lg">Clear</button>
+        <br /><br />
+        <button type="button" id="addButton" class="btn btn-primary btn-lg">+</button>
+        <button id="subButton" class="btn btn-primary btn-lg">-</button>
+        <button id="mulButton" class="btn btn-primary btn-lg">*</button>
+        <button id="divdButton" class="btn btn-primary btn-lg">/</button><br />
+        <button id="remainderButton" class="btn btn-success btn-lg">%</button>
+        <button id="incrementButton" class="btn btn-success btn-lg">++</button>
+        <button id="decrementButton" class="btn btn-success btn-lg">--</button>
+    </div>
+    <script src="js/calc.js"></script>
+    <script src="js/index-calc.js"></script>
 
 </body>
 </html>
